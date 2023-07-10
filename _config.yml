@@ -1,3 +1,7 @@
 theme: jekyll-theme-minimal
+remote_theme: vaibhavvikas/jekyll-theme-minimalistic
 title: 🍋
 description: A bunch of stuff.
+
+plugins:
+- jekyll-remote-theme
