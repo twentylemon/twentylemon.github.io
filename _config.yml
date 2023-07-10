@@ -15,10 +15,10 @@ platforms:
 
 navigation:
 - name: Principals
-  link: ./principals
+  link: /principals
 - name: Projections
-  link: ./projections
+  link: /projections
 - name: Testing
-  link: ./testing
+  link: /testing
 - name: Resources
-  link: ./resources
+  link: /resources
