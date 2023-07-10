@@ -12,3 +12,13 @@ platforms:
 - name: LinkedIn
   icon: <i class="fa-brands fa-linkedin"></i>
   link: https://www.linkedin.com/in/tarasmychaskiw
+
+navigation:
+- name: Principals
+  link: ./principals
+- name: Projections
+  link: ./projections
+- name: Testing
+  link: ./testing
+- name: Resources
+  link: ./resources
