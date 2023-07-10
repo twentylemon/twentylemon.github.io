@@ -24,7 +24,7 @@ navigation:
   link: /projections
   sublist:
   - name: Blurbs
-    link: /projects/blurbs
+    link: /projections/blurbs
 - name: Testing
   link: /testing
 - name: Resources
