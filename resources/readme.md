@@ -26,6 +26,12 @@
 * [Hypothesis](https://hypothesis.readthedocs.io/en/latest/) - property based testing framework
 
 
+## AWS
+
+* [AWS Well Architected](https://aws.amazon.com/architecture/well-architected/) - loads to read about typical design approaches on AWS
+* [Serverless Land](https://serverlessland.com/) - news/designs/etc specific to serverless tech on AWS
+
+
 ## Apache Spark
 
 * [Documentation](https://spark.apache.org/documentation.html)
