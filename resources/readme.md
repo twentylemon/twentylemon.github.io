@@ -1,8 +1,3 @@
----
-layout: post
-toc: true
----
-
 # Resources
 
 ## [Java](java)
