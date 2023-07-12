@@ -8,7 +8,6 @@ github:
 
 plugins:
 - jekyll-remote-theme # https://github.com/vaibhavvikas/jekyll-theme-minimalistic/
-- jekyll-toc # https://github.com/toshimaru/jekyll-toc
 
 platforms:
 - name: GitHub
