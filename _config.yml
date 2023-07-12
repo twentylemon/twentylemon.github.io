@@ -18,8 +18,8 @@ platforms:
   link: https://www.linkedin.com/in/tarasmychaskiw
 
 navigation:
-- name: Principals
-  link: /principals
+- name: Principles
+  link: /principles
 - name: Projections
   link: /projections
   sublist:
