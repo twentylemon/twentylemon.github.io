@@ -1,5 +1,8 @@
 # Resources
 
+* toc
+{:toc}
+
 ## [Java](java)
 ## [Python](python)
 
