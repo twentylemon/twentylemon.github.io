@@ -20,4 +20,4 @@ Where the power of such an approach shows is in projecting the impact of changes
 
 Note the approach detailed above simple counts the number of tasks in a story. One may consider estimating the size of tasks in some way in an effort to get a "better" picture. Though, as stories grow, the relative weight of the size of individual tasks goes away and a good approximation is to simply count the number of tasks. This is what I tend to recommend as it has next to no overhead.  
 One may also consider using something else other than a linear regression to fit the data. For example, a logistic curve for the story growth can make sense. Using other regressions can make the visualization harder to understand however, which can lead to loss of trust in it.  
-Sometimes, [good enough is good enough](/principals/good-enough/).
+Sometimes, [good enough is good enough](/principles/good-enough/).
