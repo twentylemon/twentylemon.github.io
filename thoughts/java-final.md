@@ -24,8 +24,6 @@ void func(String input) {
 }
 ```
 
-> Reassigning variables, especially method arguments, make debugging unnecessarily hard. afaik, its generally not considered as a good practice. Even without explicit `final` keywords, I would prefer to write code which assumes all variables are essentially final.
-
 The main argument I see against such practice is doctrine. It's not considered a good practice in java, it makes debugging hard, so we must avoid it! However, keeping the local namespace less cluttered is sane, and there's no reason to keep two values around that are _almost_ identical, but one of which is objectively _wrong_ to use. In my example above, defining `String inputLower = input.toLowerCase()` provides no benefit, and allows you to misuse `input` instead of `inputLower` -- _that_ makes debugging unnecessarily hard.
 
 As for good practice, I simply don't buy it. Plenty of languages adopt this as a standard idiom when they don't have default function arguments. For example in javascript, `in = in || someDefault`. For _best practices_ in general, I tend to argue against assertions such as "x is bad, don't do it." Rather, I prefer advice that knows that it makes sense to not follow the advice when the situation calls. [A nice write up](https://www.scattered-thoughts.net/writing/on-bad-advice/#what-lasts) on this specifically; the whole piece is worth a read as well.
