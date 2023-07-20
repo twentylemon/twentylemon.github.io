@@ -23,11 +23,11 @@ platforms:
 navigation:
 - name: Principles
   link: /principles
-- name: Projections
-  link: /projections
+- name: Thoughts
+  link: /thoughts
   sublist:
-  - name: Blurbs
-    link: /projections/blurbs
+  - name: Projections
+    link: /thoughts/projections
 - name: Testing
   link: /testing
 - name: Resources
