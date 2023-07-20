@@ -28,7 +28,7 @@ navigation:
   sublist:
   - name: Projections
     link: /thoughts/projections
-- name: Testing
-  link: /testing
+  - name: Testing
+    link: /thoughts/testing
 - name: Resources
   link: /resources
