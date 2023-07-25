@@ -68,3 +68,5 @@ Through this, we turned a whole chain of impure functions into a chain of pure f
 
 We also pushed impurities to `main`. `main` is the ultimate impure function, it is _always_ impure, as some form of IO had to occur for it to even run in the first place. There's no better place to cram all your impurities! That is not to say, make your `main` hundreds of lines long, you should still organize with some sanity (not _every_ function has to be pure, but your business logic probably should be). But, that is to say, do your IO in `main`; http requests, caching logic, that sort of thing. Do some IO, delegate to your newly pure business logic for a data transformation, repeat. If `main` gets too large, it may be your application, API, etc, may be getting too complex, and you may want to consider breaking it apart into more pieces.
 
+### etc
+* [47deg - Pitfalls of Mocking in tests](https://www.47deg.com/blog/mocking-and-how-to-avoid-it/)
