@@ -29,9 +29,9 @@ public Collection<Thing> getThings() {
 }
 ```
 
-It is my opinion now that such tests do not actual _test_ anything meaningful. No behaviour of the unit under test is proven, or proven to not exist. Rather, we essentially prove the source code is written the way it was written. As soon as we change any detail in `getThings`' implementation (say by inlining `parser.parse`), the tests fail. There are hints to this in the test itself, why was `things` initialized in that way; why is the serialization of it `"things"`? The test doesn't meaningfully change when those values are changed, the test is independent of the data used in it.
+It is my opinion now that such tests do not actually _test_ anything meaningful. No behaviour of the unit under test is proven, or proven to not exist. Rather, we essentially prove the source code is written the way it was written. As soon as we change any detail in `getThings`' implementation (say by inlining `parser.parse`), the tests fail. There are hints to this in the test itself, why was `things` initialized in that way; why is the serialization of it `"things"`? The test doesn't meaningfully change when those values are changed, the test is independent of the data used in it.
 
-Removing the mocks would eliminate the issue. Run the unit the same as production would and assert the output of the unit, this verifies the unit's actual behaviour. But, this introduces another issue. How can we test this unit _without_ mocks? The parser mock is trivially removable, but the http client an http request. This unit is impure, in the functional programming sense (it relies on some IO).
+Removing the mocks would eliminate the issue. Run the unit the same as production would and assert the output of the unit, this verifies the unit's actual behaviour. But, this introduces another issue. How can we test this unit _without_ mocks? The parser mock is trivially removable, but the http client makes an http request. This unit is impure, in the functional programming sense (it relies on some IO).
 
 ### Making it Pure
 
